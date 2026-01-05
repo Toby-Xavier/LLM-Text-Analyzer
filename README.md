@@ -174,26 +174,6 @@ Same structure as Excel, but:
 - Auto-resized columns
 - Can be edited online
 
-## Testing
-
-### Test API Connection
-```bash
-python test_connection.py
-```
-
-This will:
-- Verify your Gemini API key works
-- List available models
-- Send a test request
-- Display the response
-
-### Test Analysis
-```bash
-python analyzer.py
-```
-
-This runs a quick test with sample texts and exports to Excel.
-
 ## Troubleshooting
 
 ### API Key Issues
